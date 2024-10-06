@@ -1,6 +1,6 @@
 # Terraform Azure Virtual Machine Scale Set with Load Balancer
 
-This project provisions an Azure Virtual Machine Scale Set (VMSS) with autoscaling, attached to a Load Balancer using Terraform. The instances serve a 'Hello World' webpage. It is based on a [Google Cloud Platform] equivalent](https://github.com/joshuamkite/terraform-gcp-managed-instance-group) which is in turn based on an [Amazon Web Services Equivalent](https://github.com/joshuamkite/pulumi-aws-asg)
+This project provisions an Azure Virtual Machine Scale Set (VMSS) with autoscaling, attached to a Load Balancer using Terraform. The instances serve a 'Hello World' webpage. It is based on a [Google Cloud Platform equivalent](https://github.com/joshuamkite/terraform-gcp-managed-instance-group) which is in turn based on an [Amazon Web Services Equivalent](https://github.com/joshuamkite/pulumi-aws-asg)
 
 ## Prerequisites
 
