@@ -1,9 +1,3 @@
-
-provider "azurerm" {
-  features {}
-  subscription_id = var.subscription_id
-}
-
 terraform {
   required_providers {
     azurerm = {
@@ -11,4 +5,15 @@ terraform {
       version = ">= 4.4.0"
     }
   }
+}
+
+provider "azurerm" {
+  features {}
+  subscription_id = var.subscription_id
+}
+
+provider "azurerm" {
+  alias = "dns"
+  features {}
+  subscription_id = var.subscription_id
 }
